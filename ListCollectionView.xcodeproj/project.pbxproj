@@ -15,6 +15,7 @@
 		CFE186B324B05E1B00A90330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE186B124B05E1B00A90330 /* LaunchScreen.storyboard */; };
 		CFE186BE24B05E1B00A90330 /* ListCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE186BD24B05E1B00A90330 /* ListCollectionViewTests.swift */; };
 		CFE186C924B05E1B00A90330 /* ListCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE186C824B05E1B00A90330 /* ListCollectionViewUITests.swift */; };
+		CFE186D724B05FE400A90330 /* SimpleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE186D624B05FE400A90330 /* SimpleListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CFE186C424B05E1B00A90330 /* ListCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE186C824B05E1B00A90330 /* ListCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewUITests.swift; sourceTree = "<group>"; };
 		CFE186CA24B05E1B00A90330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE186D624B05FE400A90330 /* SimpleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				CFE186A624B05E1900A90330 /* AppDelegate.swift */,
 				CFE186A824B05E1900A90330 /* SceneDelegate.swift */,
+				CFE186D624B05FE400A90330 /* SimpleListViewController.swift */,
 				CFE186AA24B05E1900A90330 /* ViewController.swift */,
 				CFE186AC24B05E1900A90330 /* Main.storyboard */,
 				CFE186AF24B05E1B00A90330 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			files = (
 				CFE186AB24B05E1900A90330 /* ViewController.swift in Sources */,
 				CFE186A724B05E1900A90330 /* AppDelegate.swift in Sources */,
+				CFE186D724B05FE400A90330 /* SimpleListViewController.swift in Sources */,
 				CFE186A924B05E1900A90330 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
